@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@font-face {
+    font-family: 'esthetique Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('esthetique Regular'), url(../fonts/Esthetique-rgwrx.woff) format('woff');
+    }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*    font-family: 'Poppins', sans-serif;*/
+    font-family: 'Uchen', serif;
+
+    font-weight: 100;
+    background-color: #F2E5D7;
+    color: #262322;
+ 
+}
+
+.navbar{
+    background-color: #262322;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px   #e66767;
+}
+
+
+.contenedor-principal{
+    height: 60vh;
+    background-color: #F2E5D7;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.nav-links li{
+    padding-left: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #F2E5D7;
+    
+}
+
+.nav-links a:hover{
+    color: #e66767;
+    text-shadow:1px 1px  #262322;
+    font-size: 2rem;
+}
+
+.fotoytexto{
+    
+}
+
+.fotoytexto a{
+    text-decoration: none;
+    color: #F2E5D7;
+}
+
+.fotoytexto::first-letter{
+    color: #e66767;
+    font-size: 2rem;
+}
+
+.fotoinicio{
+    height: 350px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.fotoinicio:hover{
+    opacity: 0.9;
+    height: 450px;
+}
+
+.textomain{
+    width: 90%;
+    margin-right: 50px;
+    margin-left: 80px;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    color: #262322;
+    margin-left: 35px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #262322;
+    font-size: 1.5rem;
+}
+
+.redes a:hover{
+    color: #e66767;
+    text-shadow:1px 1px  #262322;
+    font-size: 2.5rem;
+}
+
+.botones button{
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.cv{
+    background-color: #262322;
+    color: #F2E5D7;
+    font-family: 'esthetique Regular';
+    font-size: 1rem;
+}
+
+.contacto{
+    background-color: #F2E5D7;
+    color: #262322;
+    font-family: 'esthetique Regular';
+    font-size: 1rem;
+}
+
+.cv:hover{
+    color: #e66767;
+    font-size: 1.5rem;
+}
+
+.contacto:hover{
+    color: #e66767;
+    font-size: 1.5rem;
+}
+
+.fa-exclamation{
+    font-size: 3rem;
+    color: #e66767;
+}
