@@ -168,3 +168,151 @@ body{
     font-size: 3rem;
     color: #e66767;
 }
+
+.contenedor-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 0;
+    height: 100%;
+}
+
+main hr{
+    color: #262322;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main h1::first-letter{
+    color: #e66767;
+}
+
+.datos-sobremi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+
+.fotosobremi{
+    height: 250px;
+    border-radius: 500px;
+    box-shadow: 1px 1px 1px 1px #262322 ;
+    border-left: 200px;
+    border-right: 200px;
+    padding: 10px;
+}
+
+
+.datos1{
+    text-align: right;
+    margin-right: 20px;
+    
+}
+
+.datos2{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.datos2 a{
+    text-decoration: none;
+    color: #262322;
+
+}
+
+.datos2 a:hover{
+    font-size: 1.1rem;
+    color: #e66767;
+
+
+}
+
+.datos1 p:hover{
+    color: #e66767;
+    font-size: 1.1rem;
+
+}
+
+.datos2 p:hover{
+    color: #e66767;
+    font-size: 1.1rem;
+}
+
+.fa-hand-back-point-left{
+    color: #262322;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 590px;
+
+
+}
+.footer{
+    font-size: 0.7rem;
+}
+
+.info-sobremi{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 50%;
+
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.imagen-portfolio{
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.imagen-portfolio::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    background-color: #e66767;
+    height: 300px;
+    width: 500px;
+}
+.imagen-portfolio:hover{
+    height: 320px;
+    width: 520px;
+    opacity: 0.3;
+    border-style:  solid;
+    
+}
+
+.portfolio a{
+    text-decoration: none;
+    color:#262322;
+}
+
